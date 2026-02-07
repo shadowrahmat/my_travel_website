@@ -6,9 +6,8 @@
   box-sizing: border-box;
 }
 
-
 body {
-    font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 /* nav bar style start */
@@ -18,10 +17,10 @@ body {
 }
 
 .nav_bar {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo_text {
   display: flex;
@@ -29,17 +28,94 @@ body {
   gap: 10px;
 }
 span {
-    color: #FF5400;
+  color: #ff5400;
 }
 .menu_item > ul {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .menu_item > ul > li {
-    list-style: none;
+  list-style: none;
 }
 .menu_item > ul > li > a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+
+/* banner section style start */
+.banner {
+  margin-top: 20px;
+  max-width: 1250px;
+  min-height: 500px;
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 400px;  */
+  opacity: 0.9;
+}
+.banner_text > h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
+}
+.banner_text > p {
+  font-size: 16px;
+  color: white;
+}
+
+/* input css code is here */
+.search_box {
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  align-items: end;
+}
+
+.search_box input[type="text"]{
+    padding: 10px 15px;
+    border: 2px solid #e1e8ed;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 100%;
+}
+.search_box input[type="text"]:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+.search_box input[type="text"]::placeholder {
+    color: #6c757d;
+    font-weight: 400;
+}
+.search_box input[type="button"]{
+    background: #FF5400;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
 }
