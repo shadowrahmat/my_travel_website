@@ -5,6 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.primary_button {
+  background-color: #ff5400;
+  color: white;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
 body {
   font-family: "Mulish", sans-serif;
@@ -86,36 +94,63 @@ span {
   align-items: end;
 }
 
-.search_box input[type="text"]{
-    padding: 10px 15px;
-    border: 2px solid #e1e8ed;
-    border-radius: 8px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    background-color: #f8f9fa;
-    color: #333;
-    width: 100%;
+.search_box input[type="text"] {
+  padding: 10px 15px;
+  border: 2px solid #e1e8ed;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+  color: #333;
+  width: 100%;
 }
 .search_box input[type="text"]:focus {
-    outline: none;
-    border-color: #667eea;
-    background-color: white;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  outline: none;
+  border-color: #667eea;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 .search_box input[type="text"]::placeholder {
-    color: #6c757d;
-    font-weight: 400;
+  color: #6c757d;
+  font-weight: 400;
 }
-.search_box input[type="button"]{
-    background: #FF5400;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 300;
-    cursor: pointer;
-    text-transform: uppercase;
-    
-
+.search_box input[type="button"] {
+  background: #ff5400;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* popular section css code start  */
+.our_popular {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+.content > h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.content p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content > ul {
+    margin: 20px 0;
 }
