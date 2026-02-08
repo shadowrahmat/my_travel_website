@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 10px;
 }
-span {
+.logo_name {
   color: #ff5400;
 }
 .menu_item > ul {
@@ -203,4 +203,83 @@ span {
 .icon_bottom > p {
   font-size: 16px;
   color: #5a5a5d;
+}
+
+/* deal css code */
+.deal_img_section {
+  height: 500px;
+  max-width: 1250px;
+  background-image: url('../Images/Group\ 39.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 600px;
+}
+
+.tour_cart {
+  background-color: rgba(246, 245, 245, 0.684);
+  border-radius: 18px;
+  padding: 30px;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.tour_meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  color: #5A5A5D; 
+  font-size: 20px;
+
+}
+.tour_title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.tour_description {
+  color: #5A5A5D;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.tour_price {
+  font-size: 20px;
+  color: #FF5400;
+  margin-bottom: 10px;
+}
+.deal_img_section_two {
+  height: 500px;
+  max-width: 1250px;
+  background-image: url('../Images/Group\ 40.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* padding-right: 500px; */
+  padding-left: 100px;
+  margin-top: 24px;
+
+}
+.deal_img_section_three {
+  height: 500px;
+  max-width: 1250px;
+  background-image: url('../Images/Group\ 39.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* padding-right: 500px; */
+  padding-left: 600px;
+  margin-top: 24px;
+
 }
