@@ -148,22 +148,59 @@ span {
     box-shadow 0.3s ease;
 }
 .content p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .content > ul {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 /* Destination css code */
 .Destination_content {
-
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.first_colum, .second_colum, .third_colum {
+.first_colum,
+.second_colum,
+.third_colum {
   margin-bottom: 20px;
   display: flex;
   gap: 24px;
+}
+/* choose css code here */
+.icon_container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.icon_box {
+  padding: 35px;
+  border: 1px solid rgba(160, 235, 211, 0.914);
+  border-radius: 18px;
+}
+.icon_box > h3 {
+  margin: 20px 0;
+}
+
+.icon_box > p {
+  font-size: 16px;
+  color: #5a5a5d;
+}
+
+.icon_bottom {
+  padding: 35px;
+  border: 1px solid rgba(160, 235, 211, 0.914);
+  border-radius: 18px;
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+.icon_bottom > h3 {
+  margin: 20px 0;
+}
+.icon_bottom > p {
+  font-size: 16px;
+  color: #5a5a5d;
 }
